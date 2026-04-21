@@ -1,3 +1,5 @@
+[Home](../README.md)
+
 # MHC/HLA Pangenome Graph Analysis
 
 ## Overview
@@ -7,7 +9,7 @@ Analysis of the Human MHC locus using chromosome 6 pangenome graphs and the `odg
 
 ### MHC and HLA Biology
 
-The Major Histocompatibility Complex (MHC) is a dense gene region located on chromosome 6 (6p21.3) in humans. This region is critical for the adaptive immune system as it encodes cell surface glycoproteins that present peptide fragments to T-cells.
+The Major Histocompatibility Complex (MHC) is a dense gene region located on chromosome 6 (6p21.3) in humans. This region is critical for the adaptive immune system as it encodes cell surface glycoproteins that present peptide fragments to T-cells. Human Leukocyte Antigens (HLA) are the human version of the MHC, a gene cluster on chromosome 6 encoding cell surface proteins.
 
 #### Key Characteristics
 
@@ -25,6 +27,16 @@ The Major Histocompatibility Complex (MHC) is a dense gene region located on chr
 #### Pangenomic Significance
 
 Because the MHC region is characterized by extreme structural variation, including large insertions, deletions, and gene duplications, a single linear reference genome (like GRCh38) cannot capture the full range of human diversity. Pangenome graphs allow for the representation of these diverse haplotypes simultaneously, facilitating more accurate alignment and variant calling in immunological research.
+
+---
+
+### 2D Draw output of MHC region
+
+![draw viz](./chr6.pan.MHC.draw.png)
+
+### PGGB output: 1D linear pangenome graph
+
+![1D linear](./chr6.pan.MHC.png)
 
 ---
 

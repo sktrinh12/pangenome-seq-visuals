@@ -1,3 +1,5 @@
+[Home](../README.md)
+
 # Pangenome Graph Construction and Visualization with LPA Dataset
 
 ## Theory: LPA Gene and Kringle Repeats
@@ -7,6 +9,16 @@ The LPA gene encodes lipoprotein(a), a plasma lipoprotein. A key feature of LPA 
 This repeat polymorphism causes structural variation in the genome. Different haplotypes have different numbers of tandem kringle IV repeats. When aligned, these repeat units create a complex pangenome graph with long, repetitive tangles. The graph visualizations (tubes, bubbles, loops) correspond directly to the presence, absence, or copy number variation of these kringle repeats.
 
 The LPA locus serves as a model for studying structural variants that are difficult to detect with short-read sequencing. Pangenome graphs capture the full spectrum of repeat copy number variation across multiple human haplotypes.
+
+### 2D Draw output of LPA region
+![2d draw](./output_LPA/LPA.fa.77bc0e1.11fba48.39c33be.smooth.final.og.lay.draw.png)
+
+---
+
+### PGGB output: 1D linear pangenome graph
+![1d linear](./output_LPA/LPA.fa.77bc0e1.11fba48.39c33be.smooth.final.og.viz_multiqc.png)
+
+---
 
 ### Requirements
 

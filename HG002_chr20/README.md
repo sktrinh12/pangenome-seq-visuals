@@ -1,3 +1,6 @@
+[Home](../README.md)
+
+
 ## HG002 Diploid Pangenome Graph
 
 - versions of tools:
@@ -13,6 +16,14 @@ pggb v0.7.4-48-g5134732
 
 odgi v0.9.4-2-g405be8f6
 ```
+
+### PGGB output: 1D linear pangenome
+![1d linear](./pggb_output_chr20/chr20_haps.fa.3d73c94.11fba48.e3aa42b.smooth.final.og.viz_multiqc.png)
+
+---
+
+### Sequence Tube Map: Structural variant region
+![stm short region viz](./graph.svg)
 
 ### 0. Download data files
 - Mother and father fasta files from the Ashkenazi Jewish family:
